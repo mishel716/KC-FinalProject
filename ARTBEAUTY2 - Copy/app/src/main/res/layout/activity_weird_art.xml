@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC4C4"
+    tools:context=".WeirdArt">
+
+    <TextView
+        android:id="@+id/weirdArtt"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="551dp"
+        android:text="WeIrd ArT"
+        android:textColor="#E31F1F"
+        android:textSize="58sp"
+        android:textStyle="bold|italic" />
+
+    <ListView
+        android:id="@+id/listView123"
+        android:layout_width="411dp"
+        android:layout_height="494dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="143dp" />
+
+</RelativeLayout>
